@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const content = document.getElementById('content');
     const menuToggle = document.getElementById('menu-toggle');
     const mainNav = document.getElementById('main-nav');
-
     function loadContent(page) {
         fetch(`./assets/pages/${page}.html`)
             .then(response => {

@@ -13,7 +13,6 @@
     margin: 0;
     padding: 0;
     cursor: url('../images/cursors/Cursor_UL.png'), auto;
-    /* Apply the custom cursor to all elements */
 }
 
 body,
@@ -24,10 +23,7 @@ html {
     height: 100%;
     line-height: 1.6;
     cursor: url('../images/cursors/Cursor_UL.png'), auto;
-    /* Ensure it's applied to the body and html elements */
 }
-
-/* Your existing styles continue below */
 .container {
     display: flex;
     flex-direction: column;
@@ -55,7 +51,6 @@ nav ul {
 nav ul li,
 aside ul li {
     cursor: url('../images/cursors/Crosshair.png'), pointer;
-    /* Apply the custom cursor to navigation items */
     padding: 0.5rem;
     background-color: var(--tertiary-bg);
     flex-grow: 1;
